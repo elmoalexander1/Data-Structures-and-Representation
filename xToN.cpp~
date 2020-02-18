@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int xton(x, n) {
+  if (n == 0) {
+    return 1;
+}
+  else {
+    return x * xton(x, n - 1);
+  }
+
+
+int main( ) {
+  int x, n, z;
+  cin >> x;
+  cin >> n;
+  z = xton(x, n);
+  cout << x << " ^ " << n <<  " = " << z << endl;
+  return 0;
+}

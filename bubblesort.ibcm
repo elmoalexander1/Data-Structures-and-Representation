@@ -1,0 +1,17 @@
+C00E 000 jmp	start	skip over variables
+0002 001 1st	dw	a[0]
+0001 002 2nd	dw	a[1]
+0003 003 3rd 	dw	a[2]
+0004 004 4th	dw	a[3]
+0005 005 5th 	dw	a[4]
+0000 006 temp 	dw	putting zero there
+0000 007 		leaving space for variables
+0000 008 i	dw	iterator for first for-loop
+0004 009 j	dw	iterator for second for-loop
+0000 00A
+0000 00B
+0000 00C
+0000 00D
+0000 00E
+3001 00F loop	load	first element into array
+

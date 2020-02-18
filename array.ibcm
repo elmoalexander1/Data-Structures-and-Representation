@@ -1,0 +1,7 @@
+C00A 000	jmp	start	skip around
+0005 001 1st	dw		array first value
+0007 002 2nd	dw	
+0003 003 3rd 	dw		array thrid value
+0009 004 4th 	dw		array fourth value
+0001 005 5th 	dw		array fifth value
+4001 006 
